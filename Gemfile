@@ -11,6 +11,7 @@ gem 'arctic_admin'
 
 gem 'bootsnap', require: false
 gem 'devise'
+gem 'pg'
 gem 'puma'
 gem 'rack-cors'
 gem 'rails'
@@ -20,7 +21,6 @@ group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   gem 'factory_bot_rails'
   gem 'rspec-rails'
-  gem 'sqlite3'
 end
 
 group :test do
@@ -32,11 +32,6 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-end
-
-group :production do
-  # Use postgres as the database for production
-  gem 'pg'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
