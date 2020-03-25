@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Just another test application.
 
-Things you may want to cover:
+Goal: create a Rails 6 app with a simple admin interface, with frontend React in the same repository.
+Setting up Heroku CI
+Setting up Buildpacks
 
-* Ruby version
+Tutorial: https://blog.heroku.com/a-rock-solid-modern-web-stack
 
-* System dependencies
+Running demo: https://intense-anchorage-55627.herokuapp.com/
 
-* Configuration
+Rails 6.0.2.2
+Ruby 2.7.0
+Node 10.16.3
+Yarn 1.17.3
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://alagaesia.dev
